@@ -1,19 +1,23 @@
 .header__lang-link {
-  position: absolute;
-  width: 22px;
-  height: 20px;
-  left: 242px;
-  top: 30px;
+  text-decoration: none;
+  color: #ffffff;
 
-  font-family: "Inter";
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
-  /* identical to box height, or 111% */
+  line-height: 1.15;
+  transition: opacity 0.4s linear;
+  opacity: 1;
+}
 
-  text-align: right;
-  text-decoration-line: underline;
+.header__lang-link:hover {
+  opacity: 0.7;
+}
 
-  color: #ffffff;
+/*
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.3;
+  }
 }
