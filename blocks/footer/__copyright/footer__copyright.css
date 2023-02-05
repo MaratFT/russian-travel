@@ -5,10 +5,9 @@
   font-size: 14px;
   line-height: 1.15;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-/*
 @media screen and (max-width: 767px) {
   .footer__copyright {
     align-self: flex-start;
