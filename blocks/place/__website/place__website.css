@@ -8,6 +8,13 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .place__website {
+    align-self: flex-start;
+    padding-left: 16px;
+  }
+}
+
 /*
 @media screen and (max-width: 320px) {
   .place__website {
