@@ -9,9 +9,3 @@
   color: #aaaaaa;
   text-transform: uppercase;
 }
-
-@media screen and (max-width: 320px) {
-  .place__website {
-    margin-top: 0;
-  }
-}

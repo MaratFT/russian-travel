@@ -13,17 +13,10 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .footer {
-    max-width: 928px;
-    padding-top: 92px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
-    padding-top: 66px;
+    padding-top: 88px;
   }
 }
 
