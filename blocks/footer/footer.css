@@ -13,17 +13,19 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .footer {
     max-width: 720px;
     padding-top: 88px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer {
+    max-width: 186px;
     padding-left: 16px;
     padding-top: 64px;
     flex-direction: column;
+    padding-right: 118px;
   }
 }
